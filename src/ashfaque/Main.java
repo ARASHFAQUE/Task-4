@@ -15,7 +15,7 @@ public class Main {
         int sum = myCalculator.divisorSum(a);
         System.out.println("The sum of divisors of the number " + a + " is: " + sum + "\n");
 
-        System.out.print("Enter the number you want the factorial: ");
+        System.out.print("Enter the number you want the factorial of: ");
         int b = input.nextInt();
         BigInteger factorial = myCalculator.findFactorial(b);
         System.out.println("The factorial of the number " + b + " is: " + factorial);
